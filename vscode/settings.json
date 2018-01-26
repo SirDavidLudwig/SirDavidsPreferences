@@ -5,27 +5,44 @@
     "workbench.colorTheme": "Material Theme",
     "window.zoomLevel": 0,
     "editor.renderLineHighlight": "all",
-    "editor.fontSize":15,
+    "editor.fontSize": 15,
     "editor.lineHeight": 25,
     "editor.insertSpaces": false,
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80
+    ],
     "editor.smoothScrolling": true,
     "editor.mouseWheelScrollSensitivity": 1.5,
     "editor.cursorBlinking": "phase",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-
     "code-runner.executorMap": {
-        "cpp": "g++ $fullFileName -g -O2 -std=gnu++11 -o $dir/a.out",
+        "cpp": "g++ $fullFileName -g -std=gnu++11 -O2 -o $dir/a.out",
         "python": "python3 $fullFileName"
     },
     "code-runner.runInTerminal": true,
-
     "python.pythonPath": "/usr/bin/python3",
     "python.linting.pylintArgs": [
         "--disable=c0330",
         "--disable=c0103",
         "--disable=c0111",
         "--disable=w0312"
-    ]
+    ],
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Light"
+    },
+    "editor.renderIndentGuides": false,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
 }
